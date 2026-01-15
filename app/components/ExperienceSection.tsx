@@ -44,7 +44,7 @@ function ExperienceSection() {
 
   return (
     <div>
-      <section id="experience" className="py-24 md:pt-32 container mx-auto" >
+      <section id="experience" className="py-24 container mx-auto" >
         <div className="px-5 md:p-0">
           <div className=" mb-14 text-center">
             <h2 className=" font-medium text-2xl md:text-4xl mb-5 text-background">Experience & Journey</h2>

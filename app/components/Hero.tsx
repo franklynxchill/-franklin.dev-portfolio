@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className="">
       <div className=" bg-surface" id="hero">
-        <section className=" px-5 md:p-0 w-full flex flex-col h-[120vh] md:h-[120vh] items-center justify-center">
+        <section className=" px-5 md:p-0 w-full flex flex-col h-[120vh] md:h-[120vh] md:pt-20 items-center justify-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -32,16 +32,26 @@ function Hero() {
               </span>
             </div>
 
-            <h1 className=" text-3xl md:text-5xl mt-4 md:w-[60%] mx-auto  text-center text-white">
-              Full-Stack Developer Building <span className=" text-cyan-600">Scalable Web Solutions</span>
+            {/* Name + Role (H1 for SEO) */}
+            <h1 className=" text-3xl md:text-5xl font-semibold text-white leading-tight md:w-[60%] mx-auto">
+              Franklin Onyenechere {" "}
+              <span className="text-cyan-500">Full-Stack Developer</span>
             </h1>
-            <p className=" mt-4 md:w-[55%] mx-auto text-center text-text-muted">
-              I craft high-performance applications that solve real business problems. From responsive frontends to robust backends, I deliver end-to-end solutions that drive measurable results.
-              Open to remote or hybrid roles.
+            {/* Value Proposition */}
+            <h2 className="mt-4 text-lg md:text-xl text-text-muted md:w-[55%] mx-auto">
+              Building scalable, high-performance web applications
+            </h2>
+
+            {/* Supporting Copy */}
+            <p className="mt-2 text-text-muted md:w-[55%] mx-auto leading-relaxed">
+              I design and build production-ready web applications that solve real
+              business problems. From responsive, accessible frontends to secure and
+              scalable backends, I deliver end-to-end solutions that drive measurable
+              results. Open to remote or hybrid roles.
             </p>
 
             {/* CTAs */}
-            <div className=" flex items-center justify-center mt-12 gap-4 ">
+            <div className=" flex items-center justify-center mt-10 gap-4 ">
               <button className=" btn-primary btn-primary:hover">
                 <Link href="#projects">View My Work</Link>
               </button>

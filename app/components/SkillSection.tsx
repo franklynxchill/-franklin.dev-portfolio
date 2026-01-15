@@ -8,7 +8,7 @@ import { SiMongodb, SiTypescript } from "react-icons/si";
 
 function SkillSection() {
   return (
-    <div className="py-24 md:pt-32 bg-white" id="skills">
+    <div className="py-24 bg-white" id="skills">
       <main className="px-5 md:p-0">
         <div className=" mb-16">
           <h2 className=" font-medium text-2xl md:text-4xl mb-5 text-center text-background">Tech Stack & Expertise</h2>

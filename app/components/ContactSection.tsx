@@ -10,7 +10,7 @@ import ContactForm from "./ContactForm";
 function ContactSection() {
   return (
     <div id="contact">
-      <div className="py-24 md:pt-32 bg-white">
+      <div className="py-24 bg-white">
         <section className=" container mx-auto  px-5 md:p-0">
           <div className=" text-center">
             <h2 className=" text-3xl md:text-4xl font-heading text-background font-semibold mb-5">Let's Work Together</h2>

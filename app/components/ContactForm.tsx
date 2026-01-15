@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { FiSend, FiMessageSquare } from "react-icons/fi"
 
 function ContactForm() {
@@ -43,7 +43,20 @@ function ContactForm() {
     } finally {
       setLoading(false)
     }
+
+
   }
+
+  useEffect(() => {
+  if (!success) return
+
+  const timer = setTimeout(() => {
+    setSuccess(false)
+  }, 3000)
+
+  return () => clearTimeout(timer)
+}, [success])
+
 
   return (
     <form onSubmit={handleSubmit} className="w-full">

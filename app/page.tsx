@@ -2,7 +2,6 @@ import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import ExperienceSection from "./components/ExperienceSection";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
 import SkillSection from "./components/SkillSection";
 

@@ -8,7 +8,7 @@ import { LuPawPrint } from "react-icons/lu"
 
 export default function AboutSection() {
   return (
-    <section className="py-24 md:pt-32" id="about">
+    <section className="py-24" id="about">
       <h2 className=" font-medium text-2xl md:text-4xl mb-8 text-background text-center">About Me</h2>
       <div className="container mx-auto px-5 grid md:grid-cols-2 gap-12 items-center">
         <motion.div
