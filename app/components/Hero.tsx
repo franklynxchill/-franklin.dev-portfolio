@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className="">
       <div className=" bg-surface" id="hero">
-        <section className=" px-5 md:p-0 w-full flex flex-col h-[120vh] md:h-[120vh] md:pt-20 items-center justify-center">
+        <section className=" px-5 md:p-0 w-full flex flex-col h-screen md:h-[120vh] pt-24 md:pt-20 items-center justify-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -21,7 +21,7 @@ function Hero() {
             className="text-center"
           >
             {/* Availability */}
-            <div className="flex items-center justify-center gap-2 border-2 border-primary  text-center font-medium py-2 w-72 mx-auto rounded-full">
+            <div className="flex items-center justify-center gap-2 border-2 border-primary  text-center font-medium py-2 w-72  mx-auto rounded-full mb-3">
               <span className="relative flex h-3 w-3">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
                 <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>

@@ -59,7 +59,7 @@ function ContactForm() {
 
 
   return (
-    <form onSubmit={handleSubmit} className="w-full">
+    <form onSubmit={handleSubmit} className="w-full shadow-2xl">
       {/* Full Name */}
       <div>
         <label

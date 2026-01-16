@@ -43,7 +43,7 @@ export default function AboutSection() {
               </button>
             </div>
 
-            <h3 className=" capitalize text-center md:text-left text-3xl md:text-4xl font-semibold mt-12 mb-5 lg:w-110 mx-auto lg:mx-0">Crafting digital experiences that matter</h3>
+            <h3 className=" capitalize text-center md:text-left text-3xl md:text-4xl font-semibold  mt-4 md:mt-12 mb-5 lg:w-110 mx-auto lg:mx-0">Crafting digital experiences that matter</h3>
 
             <div className="text-text-muted">
               <p>
