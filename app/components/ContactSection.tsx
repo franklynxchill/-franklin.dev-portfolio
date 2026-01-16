@@ -29,7 +29,7 @@ function ContactSection() {
               <div className="mt-9">
                 {/* item 1 */}
                 <Link href="mailto:franklynxchill@gmail.com">
-                  <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow-2xl">
+                  <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow">
                     <div className=" bg-primary p-3 flex items-center justify-center rounded-lg">
                       <MdOutlineMailOutline className=" text-2xl font-bold text-white"/>
                     </div>
@@ -69,7 +69,7 @@ function ContactSection() {
                 
 
                 {/* item 4 */}
-                <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow-2xl">
+                <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow">
                   <div className=" bg-success p-3 flex items-center justify-center rounded-lg">
                     <CiLocationOn className=" text-2xl font-bold text-white" />
                   </div>
@@ -117,8 +117,8 @@ function ContactSection() {
                 </ul>
               </div>
             </div>
-            <div className=" flex-1   p-7 rounded-2xl  w-full bg-text-muted/5">
-            <ContactForm />
+            <div className=" flex-1   p-7 rounded-2xl  w-full bg-text-muted/5 shadow">
+              <ContactForm />
             </div>
           </div>
         </section>
