@@ -41,7 +41,7 @@ function FeatureSection() {
       stacks: ["Next.js", "React", "Tailwind CSS", "Vercel"],
     },
     {
-      categories: "landpage",
+      categories: "landingpage",
       image: "/assets/bookmark-landing-page.webp",
       title: "Bookmark landing page",
       liveLink: "https://bookmark-landing-page-franklynxchill.netlify.app/",
@@ -54,7 +54,7 @@ function FeatureSection() {
       ],
     },
     {
-      categories: "landpage",
+      categories: "landingpage",
       image: "/assets/digital-bank-landing-page.webp",
       title: "Digital bank landing page",
       liveLink: "https://easybank-landing-page-franklynxchill.netlify.app/",
