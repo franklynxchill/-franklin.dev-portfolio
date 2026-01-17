@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className="">
       <div className=" bg-surface" id="hero">
-        <section className=" px-5 md:p-0 w-full flex flex-col h-screen md:h-[120vh] pt-24 md:pt-20 items-center justify-center">
+        <section className=" px-5 md:p-0 w-full flex flex-col h-screen md:h-[120vh] pt-24 md:pt-20 pb-10 md:pb-0 items-center justify-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -62,15 +62,16 @@ function Hero() {
 
             {/* Socials */}
             <div className=" flex items-center justify-center gap-x-5 mt-12 ">
-              <Link href="">
+              <Link href="https://github.com/franklynxchill" target="_blank">
                 <LuGithub className=" text-2xl font-bold text-text-muted hover:text-primary"/>
               </Link>
-              <Link href="">
+              <Link href="https://www.linkedin.com/in/franklynxchill/" target="_blank">
                 <FaLinkedinIn className=" text-2xl font-bold text-text-muted hover:text-primary" />
               </Link>
-              <Link href="">
+              <Link href="mailto:franklynxchill@gmail.com" target="_blank">
                 <MdOutlineMailOutline className=" text-2xl font-bold text-text-muted hover:text-primary"/>
               </Link>
+              <a href="http://" target="_blank" rel="noopener noreferrer"></a>
             </div>
           </motion.div>
         </section>

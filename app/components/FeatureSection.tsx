@@ -9,7 +9,7 @@ import { FiGithub } from "react-icons/fi"
 import { SlEnergy } from "react-icons/sl"
 import { TbWorld } from "react-icons/tb"
 
-type FilterType = "all" | "frontend" | "fullstack"
+type FilterType = "all" | "frontend" | "fullstack" | "landingpage"
 
 function FeatureSection() {
   const [filter, setFilter] = useState<FilterType>("all")
@@ -41,18 +41,29 @@ function FeatureSection() {
       stacks: ["Next.js", "React", "Tailwind CSS", "Vercel"],
     },
     {
-      categories: "fullstack",
-      image: "/assets/geneith_pharm_project.png",
-      title: "Pharmaceutical Corporate Platform",
-      liveLink: "",
-      gitlink: "",
+      categories: "landpage",
+      image: "/assets/bookmark-landing-page.webp",
+      title: "Bookmark landing page",
+      liveLink: "https://bookmark-landing-page-franklynxchill.netlify.app/",
+      gitlink: "https://github.com/franklynxchill/bookmark-landing-page",
       stacks: [
-        "Next.js",
-        "React",
+        "HTML",
+        "CSS",
         "Tailwind CSS",
-        "Node.js",
-        "MongoDB",
-        "Stripe",
+        "JS",
+      ],
+    },
+    {
+      categories: "landpage",
+      image: "/assets/digital-bank-landing-page.webp",
+      title: "Digital bank landing page",
+      liveLink: "https://easybank-landing-page-franklynxchill.netlify.app/",
+      gitlink: "https://github.com/franklynxchill/easybank-landing-page",
+      stacks: [
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "JS",
       ],
     },
   ]
@@ -83,6 +94,12 @@ function FeatureSection() {
           onClick={() => setFilter("fullstack")}
           icon={<SlEnergy />}
           label="Full Stack"
+        />
+        <FilterButton
+          active={filter === "landingpage"}
+          onClick={() => setFilter("landingpage")}
+          icon={<SlEnergy />}
+          label="Landing page"
         />
       </div>
 

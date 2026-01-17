@@ -28,7 +28,7 @@ function ContactSection() {
 
               <div className="mt-9">
                 {/* item 1 */}
-                <Link href="mailto:franklynxchill@gmail.com">
+                <Link href="mailto:franklynxchill@gmail.com" target="_blank">
                   <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow">
                     <div className=" bg-primary p-3 flex items-center justify-center rounded-lg">
                       <MdOutlineMailOutline className=" text-2xl font-bold text-white"/>
@@ -82,12 +82,12 @@ function ContactSection() {
                 <div className=" mt-6">
                   <h4 className=" text-background">Connect with me</h4>
                   <div className=" flex items-center gap-x-2 mt-2">
-                    <Link href="https://github.com/franklynxchill">
+                    <Link href="https://github.com/franklynxchill" target="_blank">
                       <div className=" bg-black p-2.5 flex items-center justify-center rounded-lg">
                         <LuGithub className=" text-lg font-bold text-white"/>
                       </div>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/franklynxchill">
+                    <Link href="https://www.linkedin.com/in/franklynxchill" target="_blank">
                       <div className=" border-2 border-[#0A66C2] p-2 flex items-center justify-center rounded-lg">
                         <FaLinkedinIn className=" text-lg font-bold text-[#0A66C2]" />
                       </div>
