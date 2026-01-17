@@ -126,10 +126,11 @@ function FeatureSection() {
                 />
 
                 <span className="absolute top-3 left-3 text-xs px-4 py-1.5 rounded-full bg-white text-black border">
-                  {project.categories === "frontend"
-                    ? "Frontend"
-                    : "Full Stack"}
+                  {project.categories === "frontend" && "Frontend"}
+                  {project.categories === "fullstack" && "Full Stack"}
+                  {project.categories === "landingpage" && "Landing Page"}
                 </span>
+
 
                 <div className="absolute bottom-3 right-3 flex gap-2">
                   {project.liveLink && (
