@@ -184,7 +184,7 @@ function FeatureSection() {
                 </h3>
 
                 <p className=" text-text-muted">{project.overview}</p>
-                <ul className=" mt-2 list-disc text-text-muted  ml-4">
+                <ul className=" mt-2 list-disc text-text-muted  ml-5 space-y-2 text-[14px]">
                   {project.highlights.map(highlight => (
                     <li key={highlight}>
                       {highlight}
