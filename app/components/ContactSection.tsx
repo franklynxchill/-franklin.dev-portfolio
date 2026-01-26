@@ -15,7 +15,7 @@ function ContactSection() {
           <div className=" text-center">
             <h2 className=" text-3xl md:text-4xl font-heading text-background font-semibold mb-5">Let's Work Together</h2>
             <p className=" max-w-2xl mx-auto text-text-muted">
-              I'm currently available for freelance projects and full-time opportunities. Let's discuss how I can help bring your ideas to life.
+              I am currently available for full-time remote roles and freelance projects. If you are building a product or need full-stack development support, let’s discuss how I can help.
             </p>
           </div>
 

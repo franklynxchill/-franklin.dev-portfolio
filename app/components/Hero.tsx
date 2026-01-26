@@ -35,19 +35,12 @@ function Hero() {
             {/* Name + Role (H1 for SEO) */}
             <h1 className=" text-3xl md:text-5xl font-semibold text-white leading-tight md:w-[60%] mx-auto">
               Franklin Onyenechere {" "}
-              <span className="text-cyan-500">Full-Stack Developer</span>
+              <span className="text-cyan-500">Frontend-Focused Full-Stack Developer</span>
             </h1>
-            {/* Value Proposition */}
-            <h2 className="mt-4 text-lg md:text-xl text-text-muted md:w-[55%] mx-auto">
-              Building scalable, high-performance web applications
-            </h2>
 
             {/* Supporting Copy */}
             <p className="mt-2 text-text-muted md:w-[55%] mx-auto leading-relaxed">
-              I design and build production-ready web applications that solve real
-              business problems. From responsive, accessible frontends to secure and
-              scalable backends, I deliver end-to-end solutions that drive measurable
-              results. Open to remote or hybrid roles.
+              I build fast, scalable, and user-friendly web applications using React and modern UI technologies—helping startups and small businesses launch and grow efficiently.
             </p>
 
             {/* CTAs */}

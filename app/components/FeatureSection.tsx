@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
-import { FaExternalLinkAlt, FaVolleyballBall } from "react-icons/fa"
+import { FaExternalLinkAlt, FaRocket, FaVolleyballBall } from "react-icons/fa"
 import { FiGithub } from "react-icons/fi"
 import { SlEnergy } from "react-icons/sl"
 import { TbWorld } from "react-icons/tb"
@@ -19,6 +19,8 @@ function FeatureSection() {
       categories: "fullstack",
       image: "/assets/geneith_pharm_project.png",
       title: "Pharmaceutical Corporate & E-Commerce Platform",
+      overview: "",
+      highlights: [],
       liveLink: "https://demo-geneithpharm.vercel.app/",
       gitlink: "https://github.com/franklynxchill/demo-geneithpharm",
       stacks: [
@@ -36,14 +38,29 @@ function FeatureSection() {
       categories: "frontend",
       image: "/assets/space-tourism-multi-page.webp",
       title: "Space Tourism Multi-Page Website",
+      overview: "Multi-page, responsive website built from Figma with interactive tabs and dynamic content.",
+      highlights: [
+        "Multi-page layout (Home, Destination, Crew, Technology)",
+        "Tab-based content switching",
+        "Fully responsive (desktop, tablet, mobile)",
+        "Hover states for interactive elements",
+      ],
       liveLink: "https://space-tourism-website-main-seven.vercel.app",
       gitlink: "https://github.com/franklynxchill/space-tourism-website-main",
-      stacks: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+      stacks: ["Next.js", "React", "Tailwind CSS", "Vercel", "Figma",],
     },
     {
       categories: "landingpage",
       image: "/assets/bookmark-landing-page.webp",
       title: "Bookmark landing page",
+      overview: "Responsive product landing page with interactive tabs, FAQ accordion, and form validation.",
+      highlights: [
+        "Pixel-perfect layout from Figma",
+        "Tabbed features section",
+        "FAQ accordion interaction",
+        "Newsletter form validation (empty & invalid email)",
+        "Fully responsive (desktop & mobile)",
+      ],
       liveLink: "https://bookmark-landing-page-franklynxchill.netlify.app/",
       gitlink: "https://github.com/franklynxchill/bookmark-landing-page",
       stacks: [
@@ -51,12 +68,21 @@ function FeatureSection() {
         "CSS",
         "Tailwind CSS",
         "JS",
+        "Figma",
+        "JSON",
       ],
     },
     {
       categories: "landingpage",
       image: "/assets/digital-bank-landing-page.webp",
       title: "Digital bank landing page",
+      overview: "Responsive banking landing page built from Figma with modern UI and mobile-first design.",
+      highlights: [
+        "Pixel-perfect layout from Figma",
+        "Fully responsive (desktop & mobile)",
+        "Mobile navigation toggle with JavaScript",
+        "Hover & focus states for interactive elements",
+      ],
       liveLink: "https://easybank-landing-page-franklynxchill.netlify.app/",
       gitlink: "https://github.com/franklynxchill/easybank-landing-page",
       stacks: [
@@ -64,6 +90,7 @@ function FeatureSection() {
         "CSS",
         "Tailwind CSS",
         "JS",
+        "Figma",
       ],
     },
   ]
@@ -98,7 +125,7 @@ function FeatureSection() {
         <FilterButton
           active={filter === "landingpage"}
           onClick={() => setFilter("landingpage")}
-          icon={<SlEnergy />}
+          icon={<FaRocket />}
           label="Landing page"
         />
       </div>
@@ -155,6 +182,15 @@ function FeatureSection() {
                 <h3 className="text-base font-semibold text-background">
                   {project.title}
                 </h3>
+
+                <p>{project.overview}</p>
+                <ul>
+                  {project.highlights.map(highlight => (
+                    <li key={highlight}>
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
 
                 <div className="flex flex-wrap gap-2 mt-3">
                   {project.stacks.map(stack => (

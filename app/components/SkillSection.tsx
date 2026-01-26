@@ -62,16 +62,22 @@ function SkillSection() {
                   React
                 </li>
                 <li>
+                  Next.js
+                </li>                
+                <li>
+                  JavaScript (ES6+)
+                </li>
+                <li>
                   TypeScript
                 </li>
                 <li>
-                  Next.js
+                 HTML5
+                </li>
+                <li>
+                  CSS3
                 </li>
                 <li>
                   Tailwind CSS
-                </li>
-                <li>
-                  HTML/CSS
                 </li>
                 <li>
                   React Query
@@ -93,6 +99,9 @@ function SkillSection() {
                 </li>
                 <li>
                   REST APIs
+                </li>                 
+                <li>
+                  Authentication & Authorization
                 </li>
               </ul>
             </div>
@@ -167,7 +176,10 @@ function SkillSection() {
                   Security Best Practices
                 </li>
                 <li>
-                  Team Collaboration
+                  API Integration
+                </li>
+                <li>
+                  Agile / Remote Collaboration
                 </li>
               </ul>
             </div>
