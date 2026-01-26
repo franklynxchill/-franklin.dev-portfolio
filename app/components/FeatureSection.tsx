@@ -179,12 +179,12 @@ function FeatureSection() {
 
               {/* Content */}
               <div className="px-4 py-5 h-full bg-white">
-                <h3 className="text-base font-semibold text-background">
+                <h3 className="text-lg font-semibold text-background">
                   {project.title}
                 </h3>
 
                 <p className=" text-text-muted">{project.overview}</p>
-                <ul className=" mt-2 list-disc text-text-muted text-xs">
+                <ul className=" mt-2 list-disc text-text-muted  ml-4">
                   {project.highlights.map(highlight => (
                     <li key={highlight}>
                       {highlight}

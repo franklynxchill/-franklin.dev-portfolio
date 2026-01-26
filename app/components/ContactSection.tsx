@@ -22,7 +22,7 @@ function ContactSection() {
           <div className=" flex flex-col md:flex-row gap-y-8 gap-x-10 mt-14 items-start">
             <div className=" flex-1">
               <h3 className=" mb-4  font-medium text-xl text-background">Get in Touch</h3>
-              <p className="text-text-muted">
+              <p className="text-text-muted w-80">
                 Whether you have a project in mind, want to discuss potential collaboration, or just want to say hello, I'd love to hear from you.
               </p>
 
