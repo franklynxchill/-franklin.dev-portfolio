@@ -19,8 +19,13 @@ function FeatureSection() {
       categories: "fullstack",
       image: "/assets/geneith_pharm_project.png",
       title: "Pharmaceutical Corporate & E-Commerce Platform",
-      overview: "",
-      highlights: [],
+      overview: "Full-stack pharmaceutical corporate website and e-commerce platform with secure online payments.",
+      highlights: [
+        "Corporate website + e-commerce store",
+        "Secure checkout with Stripe",
+        "Product & order management",
+        "Fully responsive, SEO-optimized",
+      ],
       liveLink: "https://demo-geneithpharm.vercel.app/",
       gitlink: "https://github.com/franklynxchill/demo-geneithpharm",
       stacks: [
@@ -47,7 +52,7 @@ function FeatureSection() {
       ],
       liveLink: "https://space-tourism-website-main-seven.vercel.app",
       gitlink: "https://github.com/franklynxchill/space-tourism-website-main",
-      stacks: ["Next.js", "React", "Tailwind CSS", "Vercel", "Figma",],
+      stacks: ["Next.js", "React", "Tailwind CSS", "Vercel", "Figma","JSON",],
     },
     {
       categories: "landingpage",
@@ -69,7 +74,6 @@ function FeatureSection() {
         "Tailwind CSS",
         "JS",
         "Figma",
-        "JSON",
       ],
     },
     {
@@ -184,7 +188,7 @@ function FeatureSection() {
                 </h3>
 
                 <p className=" text-text-muted">{project.overview}</p>
-                <ul className=" mt-2 list-disc text-text-muted  ml-6 space-y-1 text-[15px]">
+                <ul className=" mt-2 list-disc text-text  ml-6 space-y-1 text-[15px]">
                   {project.highlights.map(highlight => (
                     <li key={highlight}>
                       {highlight}
