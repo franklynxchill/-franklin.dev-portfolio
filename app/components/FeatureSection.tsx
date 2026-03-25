@@ -16,6 +16,29 @@ function FeatureSection() {
 
   const projects = [
     {
+      categories: "frontend",
+      image: "/assets/url-shortening-api-landing-page.webp",
+      title: "URL Shortening API Landing Page",
+      overview: "A responsive web application that integrates with the Clean URI API to generate shortened URLs, manage link history, and provide seamless user interactions.",
+      highlights: [
+        "Shorten any valid URL using Clean URI API",
+        "Persistent link history using local storage",
+        "One-click copy to clipboard functionality",
+        "Form validation with error handling",
+        "Responsive design across all screen sizes",
+        "Interactive UI with hover and focus states",
+      ],
+      liveLink: "https://url-shortening-api-master-eight-lac.vercel.app/",
+      gitlink: "https://github.com/franklynxchill/url-shortening-api-master",
+      stacks: [
+        "Next.js",
+        "React",
+        "API Integration",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+    },
+    {
       categories: "fullstack",
       image: "/assets/geneith_pharm_project.png",
       title: "Pharmaceutical Corporate & E-Commerce Platform",
