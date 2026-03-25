@@ -19,7 +19,7 @@ function FeatureSection() {
       categories: "frontend",
       image: "/assets/url-shortening-api-landing-page.webp",
       title: "URL Shortening API Landing Page",
-      overview: "A responsive web application that integrates with the Tiny URI API to generate shortened URLs, manage link history, and provide seamless user interactions.",
+      overview: "A responsive web application that integrates with the Tiny URI API to generate shortened URLs, and provide seamless user interactions.",
       highlights: [
         "Shorten any valid URL using TinyURL API",
         "One-click copy to clipboard functionality",
