@@ -1,3 +1,5 @@
+"use client"
+
 import { CiCloud } from "react-icons/ci";
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import { FiDatabase, FiGlobe, FiLayers } from "react-icons/fi";
@@ -48,7 +50,9 @@ function SkillSection() {
         <div className="">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="font-medium text-2xl mb-3 text-background">Skills & Tech Stack</h2>
-            <p className="text-text-muted">A comprehensive toolkit for building modern, scalable applications</p>
+            <p className="text-text-muted">
+              I use modern tools to build scalable and maintainable applications.
+            </p>
           </div>
 
           <div className=" container mx-auto grid grid-cols-1 md:grid-cols-3 gap-9 justify-center my-14 text-slate-700">

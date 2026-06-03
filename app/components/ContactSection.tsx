@@ -11,25 +11,31 @@ function ContactSection() {
   return (
     <div id="contact">
       <div className="py-24 bg-white">
-        <section className=" container mx-auto  px-5 md:p-0">
+        <section className=" max-w-7xl mx-auto  px-5 md:p-0">
           <div className=" text-center">
             <h2 className=" text-3xl md:text-4xl font-heading text-background font-semibold mb-5">Let's Work Together</h2>
-            <p className=" max-w-2xl mx-auto text-text-muted">
+            {/* <p className=" max-w-2xl mx-auto text-text-muted">
               I am currently available for full-time remote roles and freelance projects. If you are building a product or need full-stack development support, let’s discuss how I can help.
+            </p> */}
+
+            <p className=" max-w-2xl mx-auto text-text-muted">
+              Have a project in mind or need a developer?
+              I’m available for freelance work and job opportunities.
+              Let’s build something great together.
             </p>
           </div>
 
-          <div className=" flex flex-col md:flex-row gap-y-8 gap-x-10 mt-14 items-start">
-            <div className=" flex-1">
-              <h3 className=" mb-4  font-medium text-xl text-background">Get in Touch</h3>
+          <div className=" flex flex-col-reverse md:flex-row gap-y-8 gap-x-10 mt-14 items-start">
+            <div className=" w-full md:flex-1">
+              {/* <h3 className=" mb-4  font-medium text-xl text-background">Get in Touch</h3>
               <p className="text-text-muted lg:w-4/5">
                 Whether you have a project in mind, want to discuss potential collaboration, or just want to say hello, I'd love to hear from you.
-              </p>
+              </p> */}
 
-              <div className="mt-9">
+              <div className="">
                 {/* item 1 */}
                 <Link href="mailto:franklynxchill@gmail.com" target="_blank">
-                  <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow">
+                  <div className=" flex gap-3 items-center mb-4 p-4 w-full rounded-2xl  bg-text-muted/5 shadow">
                     <div className=" bg-primary p-3 flex items-center justify-center rounded-lg">
                       <MdOutlineMailOutline className=" text-2xl font-bold text-white"/>
                     </div>
@@ -69,7 +75,7 @@ function ContactSection() {
                 
 
                 {/* item 4 */}
-                <div className=" flex gap-3 items-center my-4 p-4 rounded-2xl  bg-text-muted/5 shadow">
+                <div className=" flex gap-3 items-center my-4 p-4 w-full rounded-2xl  bg-text-muted/5 shadow">
                   <div className=" bg-success p-3 flex items-center justify-center rounded-lg">
                     <CiLocationOn className=" text-2xl font-bold text-white" />
                   </div>

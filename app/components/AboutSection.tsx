@@ -47,16 +47,17 @@ export default function AboutSection() {
 
             <div className="text-text-muted">
               <p>
-                I am a frontend-focused full-stack developer specializing in React and modern UI development. I work with startups and small businesses to build responsive, scalable, and maintainable web applications that align with real business needs.
+                I’m a Frontend Developer with full-stack experience, focused on building clean, scalable, and user-friendly web applications.
               </p>
 
               <p className=" my-4">
-                I have experience collaborating in remote and cross-functional teams, working closely with designers and backend engineers to translate product requirements into clean, production-ready code. My focus is on performance, usability, and long-term maintainability.
+                I specialize in turning ideas or designs into real, functional products using React, Next.js, and modern technologies.
               </p>
 
               <p>
-                I am currently open to frontend or full-stack roles where I can contribute to meaningful products and grow alongside experienced teams.
+                I am currently open to frontend or full-stack roles and freelance work where I can contribute to meaningful products and grow alongside experienced teams.
               </p>
+
             </div>
           </div>
          </motion.div>

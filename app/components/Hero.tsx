@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className="">
       <div className=" bg-surface" id="hero">
-        <section className=" px-5 md:p-0 w-full flex flex-col h-screen md:h-[120vh] pt-24 md:pt-20 pb-10 md:pb-0 items-center justify-center">
+        <section className=" px-5 md:p-0 w-full flex flex-col h-[130vh] md:h-[115vh] pt-24 md:pt-20 pb-10 md:pb-0 items-center justify-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
@@ -32,16 +32,42 @@ function Hero() {
               </span>
             </div>
 
-            {/* Name + Role (H1 for SEO) */}
+            {/* Name */}
+            <p className="text-base md:text-base text-cyan-500 font-medium mb-1 mt-5">
+              Hi, I’m Franklin Onyenechere
+            </p>
+
+            {/* Location */}
+            <p className="text-base text-text-muted mb-4">
+              Based in Lagos, Nigeria • Available for remote work
+            </p>
+
+            {/* Headline */}
             <h1 className=" text-3xl md:text-5xl font-semibold text-white leading-tight md:w-[60%] mx-auto">
-              Franklin Onyenechere {" "}
-              <span className="text-cyan-500">Frontend-Focused Full-Stack Developer</span>
+              Frontend Developer (React/Next.js) {" "}
+              <span className="text-cyan-500"> with Full-Stack Experience</span>
             </h1>
 
             {/* Supporting Copy */}
             <p className="mt-2 text-text-muted md:w-[55%] mx-auto leading-relaxed">
-              I build fast, scalable, and user-friendly web applications using React and modern UI technologies—helping startups and small businesses launch and grow efficiently.
+              I build modern, scalable websites and data-driven dashboards that help businesses launch fast, optimize operations, and make better decisions.
             </p>
+
+            <ul className=" flex flex-col md:flex-row items-center justify-center gap-x-4 mt-3 text-text-muted">
+              <li className="flex items-center gap-2">
+                <span className="text-cyan-500 font-bold">✓</span>
+                <span>Clean, responsive UI</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-cyan-500 font-bold">✓</span>
+                <span>API integration & dashboards</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-cyan-500 font-bold">✓</span>
+                <span>Fast and reliable delivery</span>
+              </li>
+            </ul>
+
 
             {/* CTAs */}
             <div className=" flex items-center justify-center mt-10 gap-4 ">
