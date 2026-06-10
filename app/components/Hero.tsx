@@ -44,8 +44,8 @@ function Hero() {
 
             {/* Headline */}
             <h1 className=" text-3xl md:text-5xl font-semibold text-white leading-tight md:w-[60%] mx-auto">
-              Frontend Developer (React/Next.js) {" "}
-              <span className="text-cyan-500"> with Full-Stack Experience</span>
+              Frontend (React/Next.js) {" "}
+              <span className="text-cyan-500"> Focused Full-Stack Developer</span>
             </h1>
 
             {/* Supporting Copy */}
@@ -56,11 +56,11 @@ function Hero() {
             <ul className=" flex flex-col md:flex-row items-center justify-center gap-x-4 mt-3 text-text-muted">
               <li className="flex items-center gap-2">
                 <span className="text-cyan-500 font-bold">✓</span>
-                <span>Clean, responsive UI</span>
+                <span>Responsive & accessible user interfaces</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-cyan-500 font-bold">✓</span>
-                <span>API integration & dashboards</span>
+                <span>API-driven applications & dashboards</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-cyan-500 font-bold">✓</span>

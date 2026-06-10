@@ -38,24 +38,24 @@ export default function AboutSection() {
             <div className=" flex items-center justify-center lg:justify-start">
               <button className=" flex gap-2 items-center justify-center bg-surface border-2  border-primary text-primary py-2 px-5 rounded-3xl text-sm">
                 <FaCode />
-                Frontend / Full-Stack developer
+                Frontend & Full-Stack developer
                 <LuPawPrint />
               </button>
             </div>
 
-            <h3 className=" capitalize text-center md:text-left text-3xl md:text-4xl font-semibold  mt-4 md:mt-12 mb-5 lg:w-110 mx-auto lg:mx-0">Crafting digital experiences that matter</h3>
+            <h3 className=" capitalize text-center md:text-left text-3xl md:text-4xl font-semibold  mt-4 md:mt-12 mb-5 w-4/5 lg:w-99 mx-auto lg:mx-0">Building scalable web applications</h3>
 
             <div className="text-text-muted">
               <p>
-                I’m a Frontend Developer with full-stack experience, focused on building clean, scalable, and user-friendly web applications.
+                I'm a Frontend-Focused Full-Stack Developer specializing in React, Next.js, Node.js, and modern web technologies. I build responsive web applications, dashboards, and scalable digital products with a focus on usability, performance, and maintainability.
               </p>
 
               <p className=" my-4">
-                I specialize in turning ideas or designs into real, functional products using React, Next.js, and modern technologies.
+                My background in Accounting has given me a strong understanding of business operations, financial workflows, and data-driven decision-making. This allows me to approach software development with both technical and business perspectives, helping translate real-world requirements into practical digital solutions.
               </p>
 
               <p>
-                I am currently open to frontend or full-stack roles and freelance work where I can contribute to meaningful products and grow alongside experienced teams.
+                I'm currently open to frontend and full-stack opportunities where I can contribute to impactful products, collaborate with talented teams, and continue growing as a software engineer.
               </p>
 
             </div>

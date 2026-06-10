@@ -6,12 +6,12 @@ function ExperienceSection() {
     {
       role: "Website Redesign Case Study",
       highligt: "Geneith Pharm Ltd (Concept Redesign)",
-      period: "Septembter 2025 – November 2025",
+      period: "September 2025 – November 2025",
       line1: "Conducted UX analysis of the existing website, identifying usability, responsiveness, and content-structure issues.",
-      line2: "Redesigned the interface from the ground up as a learning-based case study, applying modern UI principles.",
+      line2: "Redesigned the website interface from the ground up, applying modern UI/UX principles, responsive design techniques, and component-based architecture.",
       line3: "Built and deployed the project independently using React, Next.js, and Tailwind CSS.",
-      line4: "Managed the entire workflow from design analysis to deployment on Vercel.",
-      note: "Disclaimer: This was a personal, learning-based case study and not a commissioned or affiliated project.",
+      line4: "Led the project end-to-end, from UX analysis and planning to development, testing, and deployment.",
+      note: "Disclaimer: Independent concept redesign created for portfolio and educational purposes. Not commissioned by or affiliated with Geneith Pharm Ltd.",
     },
     {
       role: "National Youth Service Corps (NYSC)",
@@ -23,8 +23,8 @@ function ExperienceSection() {
       line4: "Completed a learning-based website redesign case study inspired by the company’s public website, focusing on UX improvement, responsiveness, and modern design patterns.",
     },
     {
-      role: "Junior Full-Stack Developer (Learning-Based Projects)",
-      highligt: "Self-Directed",
+      role: "Full-Stack Developer",
+      highligt: "Personal & Freelance Projects",
       period: "2024 – Present",
       line1: "Expanded from frontend development into backend fundamentals, building full-stack applications with REST APIs, authentication, database CRUD operations, and deployment workflows.",
       line2: "Integrated frontend interfaces with backend services, handling data flow, API consumption, and basic system design.",
@@ -35,10 +35,10 @@ function ExperienceSection() {
       role: "Frontend Developer",
       highligt: "Independent Projects & Case Studies",
       period: "May 2023 – Present",
-      line1: "Built and deployed 10+ frontend projects using React, Next.js, and Tailwind CSS, focusing on responsive design, accessibility, and clean UI architecture.",
-      line2: "Completed multiple real-world UI challenges from Frontend Mentor, translating design specifications into pixel-accurate, production-ready interfaces.",
-      line3: "Applied modern frontend best practices, including component-based architecture, state management, and performance optimization.",
-      line4: "Used Git and GitHub for version control, documentation, and project iteration, with publicly accessible repositories and live demos.",
+      line1: "Built and deployed 10+ frontend applications using React, Next.js, and Tailwind CSS.",
+      line2: "Developed reusable UI components and responsive interfaces optimized for desktop and mobile devices.",
+      line3: "Integrated APIs, managed application state, and applied performance optimization techniques.",
+      line4: "Maintained source control and deployment workflows using Git, GitHub, and Vercel.",
     }
   ]
 
