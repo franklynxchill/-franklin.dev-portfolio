@@ -50,7 +50,7 @@ function Hero() {
 
             {/* Supporting Copy */}
             <p className="mt-2 text-text-muted md:w-[55%] mx-auto leading-relaxed">
-              I build modern, scalable websites and data-driven dashboards that help businesses launch fast, optimize operations, and make better decisions.
+              I build modern web applications, business platforms, and data-driven dashboards using React, Next.js, and Node.js, helping organizations improve user experience, streamline operations, and scale digital products.
             </p>
 
             <ul className=" flex flex-col md:flex-row items-center justify-center gap-x-4 mt-3 text-text-muted">

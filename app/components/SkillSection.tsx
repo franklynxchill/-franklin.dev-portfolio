@@ -17,12 +17,12 @@ function SkillSection() {
           <div className=" flex flex-wrap items-center justify-center gap-4 mt-4">
             <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
               <FaReact className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">React js</span>
+              <span className=" text-sm mt-1 text-text-muted">React.js</span>
             </div>
 
             <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
               <RiNextjsFill className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">Next js</span>
+              <span className=" text-sm mt-1 text-text-muted">Next.js</span>
             </div>
 
             <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
@@ -37,7 +37,7 @@ function SkillSection() {
 
             <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
               <FaNodeJs className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">Node js</span>
+              <span className=" text-sm mt-1 text-text-muted">Node.js</span>
             </div>
 
             <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
@@ -99,7 +99,7 @@ function SkillSection() {
                   Node.js
                 </li>
                 <li>
-                  Express
+                  Express.js
                 </li>
                 <li>
                   REST APIs
@@ -132,34 +132,28 @@ function SkillSection() {
               </div>
               <ul className=" flex flex-col gap-y-2 mt-4"> 
                 <li>
-                  AWS
-                </li>
-                <li>
                   Git
                 </li>
                 <li>
+                  GitHub
+                </li>
+                <li>
+                  Vercel
+                </li>
+                <li>
+                  Netlify
+                </li>
+                <li>
+                  Render
+                </li>
+                <li>
+                  Postman
+                </li>
+                <li>
+                  AWS (Basic)
+                </li>
+                <li>
                   CI/CD
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-cyan-50 border-cyan-200 border-2 rounded-2xl p-6">
-              <div className="flex items-center gap-4">
-                <FiLayers className="  text-cyan-800 text-2xl"/>
-                <h3 className=" text-black font-medium">Architecture</h3>
-              </div>
-              <ul className=" flex flex-col gap-y-2 mt-4 "> 
-                <li>
-                  System Design
-                </li>
-                <li>
-                  RESTful APIs
-                </li>
-                <li>
-                  Design Patterns
-                </li>
-                <li>
-                  Testing
                 </li>
               </ul>
             </div>
@@ -174,16 +168,16 @@ function SkillSection() {
                   Responsive Design
                 </li>
                 <li>
-                  Performance Optimization
-                </li>
-                <li>
-                  Security Best Practices
-                </li>
-                <li>
                   API Integration
                 </li>
                 <li>
-                  Agile / Remote Collaboration
+                  Performance Optimization
+                </li>
+                <li>
+                  Component-Based Architecture
+                </li>
+                <li>
+                  Agile Collaboration
                 </li>
               </ul>
             </div>
