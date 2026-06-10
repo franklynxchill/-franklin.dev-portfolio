@@ -13,46 +13,51 @@ function SkillSection() {
     <div className="py-24 bg-white" id="skills">
       <main className="px-5 md:p-0">
         <div className=" mb-16">
-          <h2 className=" font-medium text-2xl md:text-4xl mb-5 text-center text-background">Tech Stack & Expertise</h2>
-          <div className=" flex flex-wrap items-center justify-center gap-4 mt-4">
-            <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-              <FaReact className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">React.js</span>
-            </div>
-
-            <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-              <RiNextjsFill className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">Next.js</span>
-            </div>
-
-            <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-              <SiTypescript className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">TypeScript</span>
-            </div>
-
-            <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-              <RiTailwindCssFill className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">Tailwind CSS</span>
-            </div>
-
-            <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-              <FaNodeJs className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">Node.js</span>
-            </div>
-
-            <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-              <SiMongodb className=" text-xl text-primary" />
-              <span className=" text-sm mt-1 text-text-muted">MongoDB</span>
-            </div>
-          </div>
+          <h2 className=" font-medium text-2xl md:text-4xl mb-5 text-center text-background"
+          >
+            Tech Stack & Expertise
+          </h2>
+          <p className="text-text-muted">
+            I use modern tools to build scalable and maintainable applications.
+          </p>
         </div>
 
         <div className="">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-medium text-2xl mb-3 text-background">Skills & Tech Stack</h2>
-            <p className="text-text-muted">
-              I use modern tools to build scalable and maintainable applications.
-            </p>
+            <h2 className="font-medium text-2xl mb-3 text-background">
+              Core Stack
+            </h2>
+            <div className=" flex flex-wrap items-center justify-center gap-4 mt-4">
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <FaReact className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">React.js</span>
+              </div>
+
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <RiNextjsFill className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">Next.js</span>
+              </div>
+
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <SiTypescript className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">TypeScript</span>
+              </div>
+
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <RiTailwindCssFill className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">Tailwind CSS</span>
+              </div>
+
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <FaNodeJs className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">Node.js</span>
+              </div>
+
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <SiMongodb className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">MongoDB</span>
+              </div>
+            </div>
           </div>
 
           <div className=" container mx-auto grid grid-cols-1 md:grid-cols-3 gap-9 justify-center my-14 text-slate-700">
