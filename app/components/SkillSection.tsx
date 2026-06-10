@@ -105,17 +105,8 @@ function SkillSection() {
                   REST APIs
                 </li>                 
                 <li>
-                  Authentication & Authorization
+                  JWT Authentication
                 </li>
-              </ul>
-            </div>
-
-            <div className="bg-purple-50 border-purple-200 border-2 rounded-2xl p-6">
-              <div className=" flex items-center gap-4">
-                <FiDatabase className=" text-purple-800 text-2xl" />
-                <h3 className=" text-black font-medium">Database</h3>
-              </div>
-              <ul className=" flex flex-col gap-y-2 mt-4">
                 <li>
                   MongoDB
                 </li>
@@ -128,7 +119,7 @@ function SkillSection() {
             <div className="bg-orange-50 border-orange-200 border-2 rounded-2xl p-6">
               <div className="flex items-center gap-4">
                 <CiCloud className=" text-orange-800 text-2xl"/>
-                <h3 className=" text-black font-medium">DevOps & Tools</h3>
+                <h3 className=" text-black font-medium">Tools & Deployment</h3>
               </div>
               <ul className=" flex flex-col gap-y-2 mt-4"> 
                 <li>
@@ -148,36 +139,6 @@ function SkillSection() {
                 </li>
                 <li>
                   Postman
-                </li>
-                <li>
-                  AWS (Basic)
-                </li>
-                <li>
-                  CI/CD
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-pink-50 border-pink-200 border-2 rounded-2xl p-6">
-              <div className=" flex items-center gap-4">
-                <FiGlobe className=" text-pink-800 text-2xl" />
-                <h3 className=" text-black font-medium">Additional</h3>
-              </div>
-              <ul className=" flex flex-col gap-y-2 mt-4">
-                <li>
-                  Responsive Design
-                </li>
-                <li>
-                  API Integration
-                </li>
-                <li>
-                  Performance Optimization
-                </li>
-                <li>
-                  Component-Based Architecture
-                </li>
-                <li>
-                  Agile Collaboration
                 </li>
               </ul>
             </div>
