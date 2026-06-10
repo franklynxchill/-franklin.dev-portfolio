@@ -24,7 +24,7 @@ function SkillSection() {
 
         <div className="">
           <div className="">
-            <h2 className="font-medium text-2xl mb-3 text-background">
+            <h2 className="font-medium text-2xl text-center mb-3 text-background">
               Core Stack
             </h2>
             <div className=" flex flex-wrap items-center justify-center gap-4 mt-4">
