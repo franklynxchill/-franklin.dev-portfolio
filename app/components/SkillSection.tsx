@@ -12,7 +12,7 @@ function SkillSection() {
   return (
     <div className="py-24 bg-white" id="skills">
       <main className="px-5 md:p-0">
-        <div className=" mb-16">
+        <div className=" mb-16 max-w-2xl mx-auto text-center">
           <h2 className=" font-medium text-2xl md:text-4xl mb-5 text-center text-background"
           >
             Tech Stack & Expertise
@@ -23,7 +23,7 @@ function SkillSection() {
         </div>
 
         <div className="">
-          <div className="max-w-2xl mx-auto text-center">
+          <div className="">
             <h2 className="font-medium text-2xl mb-3 text-background">
               Core Stack
             </h2>
@@ -44,11 +44,6 @@ function SkillSection() {
               </div>
 
               <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-                <RiTailwindCssFill className=" text-xl text-primary" />
-                <span className=" text-sm mt-1 text-text-muted">Tailwind CSS</span>
-              </div>
-
-              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
                 <FaNodeJs className=" text-xl text-primary" />
                 <span className=" text-sm mt-1 text-text-muted">Node.js</span>
               </div>
@@ -56,6 +51,11 @@ function SkillSection() {
               <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
                 <SiMongodb className=" text-xl text-primary" />
                 <span className=" text-sm mt-1 text-text-muted">MongoDB</span>
+              </div>
+
+              <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
+                <RiTailwindCssFill className=" text-xl text-primary" />
+                <span className=" text-sm mt-1 text-text-muted">REST APIs</span>
               </div>
             </div>
           </div>
