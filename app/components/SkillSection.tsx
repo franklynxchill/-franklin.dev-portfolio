@@ -1,5 +1,6 @@
 "use client"
 
+import { AiOutlineApi } from "react-icons/ai";
 import { CiCloud } from "react-icons/ci";
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import { FiDatabase, FiGlobe, FiLayers } from "react-icons/fi";
@@ -54,7 +55,7 @@ function SkillSection() {
               </div>
 
               <div className=" py-6 px-8 rounded-2xl text-center border-2 border-border bg-surface flex flex-col items-center justify-center">
-                <RiTailwindCssFill className=" text-xl text-primary" />
+                <AiOutlineApi className=" text-xl text-primary" />
                 <span className=" text-sm mt-1 text-text-muted">REST APIs</span>
               </div>
             </div>
