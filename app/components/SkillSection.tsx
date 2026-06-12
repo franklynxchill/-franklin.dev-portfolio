@@ -100,7 +100,7 @@ function SkillSection() {
                 <LuServer className=" text-green-800 text-2xl"/>
                 <h3 className=" text-black font-medium">Backend</h3>
               </div>
-              <ul className=" flex flex-col gap-y-2 mt-4"> 
+              <ul className=" flex flex-col gap-y-2 mt-4 list-disc pl-5 marker:text-green-700-"> 
                 <li>
                   Node.js
                 </li>
@@ -127,7 +127,7 @@ function SkillSection() {
                 <CiCloud className=" text-orange-800 text-2xl"/>
                 <h3 className=" text-black font-medium">Tools & Deployment</h3>
               </div>
-              <ul className=" flex flex-col gap-y-2 mt-4"> 
+              <ul className=" flex flex-col gap-y-2 mt-4 list-disc pl-5 marker:text-orange-700"> 
                 <li>
                   Git
                 </li>
