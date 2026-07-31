@@ -39,7 +39,7 @@ function Hero() {
 
             {/* Location */}
             <p className="text-base text-text-muted mb-4">
-              Based in Lagos, Nigeria • Available for remote work
+              📍 Lagos, Nigeria • Open to Remote, Hybrid & On-site Opportunities
             </p>
 
             {/* Headline */}
@@ -64,7 +64,7 @@ function Hero() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-cyan-500 font-bold">✓</span>
-                <span>Fast and reliable delivery</span>
+                <span>Clean, maintainable, production-ready code</span>
               </li>
             </ul>
 

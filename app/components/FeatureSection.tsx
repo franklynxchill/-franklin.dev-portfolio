@@ -19,7 +19,27 @@ function FeatureSection() {
       categories: "frontend",
       image: "/assets/url-shortening-api-landing-page.webp",
       title: "URL Shortening API Landing Page",
-      overview: "A responsive web application that integrates with the Tiny URI API to generate shortened URLs, and provide seamless user interactions.",
+      highlights: [
+        "Shorten any valid URL using TinyURL API",
+        "One-click copy to clipboard functionality",
+        "Form validation with error handling",
+        "Responsive design across all screen sizes",
+        "Interactive UI with hover and focus states",
+      ],
+      liveLink: "https://url-shortening-api-master-eight-lac.vercel.app/",
+      gitlink: "https://github.com/franklynxchill/url-shortening-api-master",
+      stacks: [
+        "Next.js",
+        "React",
+        "API Integration",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+    },
+    {
+      categories: "frontend",
+      image: "/assets/url-shortening-api-landing-page.webp",
+      title: "URL Shortening API Landing Page",
       highlights: [
         "Shorten any valid URL using TinyURL API",
         "One-click copy to clipboard functionality",
