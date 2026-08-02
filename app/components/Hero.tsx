@@ -64,7 +64,7 @@ function Hero() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-cyan-500 font-bold">✓</span>
-                <span>Clean, maintainable, production-ready code</span>
+                <span>Clean, scalable & maintainable code</span>
               </li>
             </ul>
 

@@ -34,14 +34,14 @@ function ContactSection() {
 
               <div className="">
                 {/* item 1 */}
-                <Link href="mailto:franklynxchill@gmail.com" target="_blank">
+                <Link href="mailto:franklinonyenechere@gmail.com" target="_blank">
                   <div className=" flex gap-3 items-center mb-4 p-4 w-full rounded-2xl  bg-text-muted/5 shadow">
                     <div className=" bg-primary p-3 flex items-center justify-center rounded-lg">
                       <MdOutlineMailOutline className=" text-2xl font-bold text-white"/>
                     </div>
                     <div>
                       <p className=" font-bold text-text-muted">Email</p>
-                      <p className="text-slate-700">franklynxchill@gmail.com</p>
+                      <p className="text-slate-700">franklinonyenechere@gmail.com</p>
                     </div>
                   </div>
                 </Link>
