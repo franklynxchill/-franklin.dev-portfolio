@@ -19,6 +19,7 @@ function FeatureSection() {
       categories: "fullstack",
       image: "/assets/Monvexa-personal-finance-tracker.png",
       title: "Monvexa – Personal Finance Tracker",
+      overview: "A full-stack SaaS application that enables users to manage personal and business finances with secure authentication, real-time dashboards, and actionable financial insights.",
       highlights: [
         "Secure JWT authentication and protected user accounts",
         "Income, expense, and budget management",
